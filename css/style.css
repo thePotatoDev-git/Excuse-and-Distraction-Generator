@@ -1,0 +1,47 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+  width: 35%;
+}
+body {
+  text-align: center;
+}
+.excuse,
+.fact {
+  color: blue;
+}
+h3 {
+  color: orange;
+  margin-top: 5px;
+}
+.yoMama {
+  background: black;
+  color: yellow;
+}
+.insult {
+  color: red;
+  font-size: 2rem;
+}
+span {
+  font-size: .8rem;
+}
+.fact {
+  margin-bottom: 100px;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
