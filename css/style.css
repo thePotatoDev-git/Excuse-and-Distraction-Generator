@@ -10,17 +10,21 @@
 /******************************************
 /* LAYOUT
 /*******************************************/
-img{
+h1 {
+  font-size: 2rem;
+}img{
   display: block;
   margin: 0 auto;
   width: 35%;
 }
 body {
   text-align: center;
+  background: rgb(47, 47, 133);
 }
 .excuse,
 .fact {
-  color: blue;
+  color: rgb(219, 230, 72);
+  font-size: 1.5rem;
 }
 h3 {
   color: orange;
@@ -31,14 +35,22 @@ h3 {
   color: yellow;
 }
 .insult {
-  color: red;
+  color: rgb(138, 39, 39);
   font-size: 2rem;
+  font-weight: bold;
 }
 span {
   font-size: .8rem;
 }
 .fact {
   margin-bottom: 100px;
+}
+.main {
+  margin: 0 auto;
+  padding: 20px 50px 50px 50px;
+  width: 90%;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.363);
 }
 
 

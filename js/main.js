@@ -17,7 +17,9 @@ function randomExcuseAndFact() {
     .then(res => res.json())
     .then(data => {
         console.log(data);
-        document.querySelector('.fact').innerText = data.text + '?';
+        let fact = data.text;
+        fact = fact.replaceAll('.', '?');
+        document.querySelector('.fact').innerText = fact;
         
     })
     .catch(err => {
@@ -31,7 +33,9 @@ function insultMother() {
     .then(data => {
         console.log(data);
         document.querySelector('.startInsult').innerText = 'What do you mean I\'m lying!? Oh yea, well...';
-        document.querySelector('.insult').innerText = data.joke + '!';
+        let insult = data.joke;
+        insult = insult.replaceAll('.', '!');
+        document.querySelector('.insult').innerText = insult;
     })
     .catch(err => {
         console.log(`error ${err}`)
