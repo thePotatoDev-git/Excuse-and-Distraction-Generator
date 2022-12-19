@@ -1,3 +1,5 @@
+*Due to Heroku's new paid tiers, app may not work properly because of the use of third party APIs. Thank you for understanding.
+
 # Excuse-and-Distraction-Generator
 Have a social event you don't wanna go to? Generate an excuse to not go and quickly change the subject with a useless fact!
 
